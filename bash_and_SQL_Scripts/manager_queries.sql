@@ -22,8 +22,8 @@ WHERE standard_qty::NUMERIC = 0
 SELECT name AS company_name
 FROM accounts 
 WHERE (name LIKE 'C%' OR name LIKE 'W%') 
-      AND name ILIKE '%ana%' 
-      AND name NOT ILIKE '%eana%' ;
+      AND primary_poc ILIKE '%ana%' 
+      AND primary_poc NOT ILIKE '%eana%' ;
 
 
 -- 4. Provide a table that shows the region for each sales rep along with their associated accounts. Your final table should include three columns: the region name, 
