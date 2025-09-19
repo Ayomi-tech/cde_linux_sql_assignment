@@ -17,6 +17,3 @@ Docker Image: Is the image that was built (CDE_2) with the file that consist the
 
 Docker Container: Is the activated version of a Docker Image, which means we can activate or run more container from a our Docker (CDE_2). 
 
-
-
-
